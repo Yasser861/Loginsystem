@@ -1,0 +1,23 @@
+:root{
+    --primeColor:rgb(36, 53, 63);
+}
+section{
+    background-color: var(--primeColor);
+}
+section div{
+    box-shadow: 4px 6px 16px 10px rgba(0,0,0,0.75);
+}
+input::placeholder{
+    color: white !important;
+}
+
+section div a{
+    text-decoration: none;
+}
+section div a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    background-color: var(--primeColor) !important;
+    box-shadow: 4px 6px 6px 10px rgba(0,0,0,0.5);
+}
